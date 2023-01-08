@@ -1816,6 +1816,7 @@ pub mod error;
 pub mod exception;
 mod float;
 pub mod gc;
+pub mod gvl;
 mod integer;
 pub mod method;
 pub mod module;
@@ -1836,6 +1837,8 @@ mod r_rational;
 pub mod r_regexp;
 pub mod r_string;
 pub mod r_struct;
+pub mod r_thread;
+pub mod r_time;
 mod r_typed_data;
 mod range;
 #[cfg(feature = "rb-sys-interop")]
